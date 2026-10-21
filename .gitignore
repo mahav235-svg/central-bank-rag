@@ -1,0 +1,18 @@
+# environments
+.venv/
+.env
+__pycache__/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# data (rebuilt by `cbrag ingest` and `cbrag index`)
+data/
+logs/
+
+# editors
+.vscode/
+.idea/
